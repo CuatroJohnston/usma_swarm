@@ -28,7 +28,9 @@ The first section describes how to flash Pixhawk 2 firmware for the TAROT 650 im
   * Click "Ardupilot Flight Stack", "Advanced Settings", "Custom Firmware", select file from `/ACS/ardupilot/built/px4-v3/bin/arducopterv3.hex`
   * In Parameters set "serial2_baud" to "1,500,000"
   
-
+### Ensuring PixHawk 2 Cube connects to QGC on initial setup
+1. Detailed instructions from NPS available at `http://ardupilot.org/plane/docs/common-loading-firmware-onto-pixhawk.html`
+  
 ### Updating the Pixhawk on the SASC Zephyr II UASs
 
 1.	Note the “tail” number of the UAS: ____(A)____ (e.g. 10)
